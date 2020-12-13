@@ -1,0 +1,27 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: whitesmoke;
+  height: max-content ;
+}
+.checkout_ad {
+  width: 100%;
+  min-width: 80%;
+  margin-bottom: 10px;
+  /* object-fit: contain; */
+  height: 100px;
+  max-width: 1200px;
+}
+
+.checkout_left {
+  flex: 2.5;
+}
+.checkout_right {
+  flex: 1;
+}
+.checkout_title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
